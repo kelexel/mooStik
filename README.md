@@ -1,1 +1,1 @@
-### Mootools Simply Irresistible Tiny Kit
+### MooStik : Mootools Simple Tools Interface Kit
