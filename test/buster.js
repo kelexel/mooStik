@@ -5,7 +5,7 @@ config["UIXHR2"] = {
     environment: "browser", // or "node"
     sources: [
         "test/assets/js/mootools-1.4.5.js",
-        "lib/ui.xhr.js"
+        "lib/ui.core.xhr.js"
     ],
     tests: [
         "test/*-test.js"
