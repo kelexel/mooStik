@@ -18,10 +18,10 @@
       'onTimeout': function() {return true;}
   };
 
-buster.testCase('UIXHR2', {
+buster.testCase('_Ui.Core.XHR', {
     setUp: function(){
         this._xhrServer = sinon.fakeServer.create();
-        this._testObj = new UIXHR2();
+        this._testObj = new _Ui.Core.XHR();
         this._testObj.register('test', testOptions);
     },
 
@@ -32,8 +32,8 @@ buster.testCase('UIXHR2', {
     },
 
     'should be a Class object': function(){
-        assert.defined(UIXHR2);
-        assert.equals(typeOf(UIXHR2), 'class' );
+        assert.defined(_Ui.Core.XHR);
+        assert.equals(typeOf(_Ui.Core.XHR), 'class' );
     },
 
     'should be an instantiated object': function() {
